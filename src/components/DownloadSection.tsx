@@ -1,3 +1,4 @@
+
 import { Button } from "@/components/ui/button"
 import { Card } from "@/components/ui/card"
 
@@ -23,6 +24,7 @@ export function DownloadSection() {
               <Button 
                 size="lg" 
                 className="gradient-primary text-white border-0 hover:opacity-90 transition-all duration-200 px-8 py-6 text-lg rounded-xl"
+                onClick={() => window.open('https://drive.usercontent.google.com/download?id=1PiquWkTU1H-eufJX6AR3TAoEfHEh9T0j&export=download&authuser=0', '_blank')}
               >
                 Download for Android
               </Button>

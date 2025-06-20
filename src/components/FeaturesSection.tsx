@@ -56,7 +56,7 @@ export function FeaturesSection() {
                 
                 {/* Accuracy Badge */}
                 <div className="mt-6 inline-flex items-center px-3 py-1 rounded-full bg-primary/10 text-primary text-sm font-medium">
-                  99%+ Accuracy
+                  {feature.title === "Video Detection" ? "80%+ Accuracy" : "99%+ Accuracy"}
                 </div>
               </div>
               

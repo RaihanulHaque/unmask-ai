@@ -3,6 +3,7 @@ import { ThemeProvider } from "@/components/ThemeProvider"
 import { Navigation } from "@/components/Navigation"
 import { HeroSection } from "@/components/HeroSection"
 import { FeaturesSection } from "@/components/FeaturesSection"
+import { SupportSection } from "@/components/SupportSection"
 import { DownloadSection } from "@/components/DownloadSection"
 import { Footer } from "@/components/Footer"
 
@@ -13,6 +14,7 @@ const Index = () => {
         <Navigation />
         <HeroSection />
         <FeaturesSection />
+        <SupportSection />
         <DownloadSection />
         <Footer />
       </div>
