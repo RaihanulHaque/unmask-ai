@@ -4,7 +4,7 @@ import { ArrowDown, Shield, Scan, Eye } from "lucide-react"
 
 export function HeroSection() {
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
+    <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-20">
       {/* Background Effects */}
       <div className="absolute inset-0 mesh-gradient"></div>
       <div className="absolute inset-0 bg-grid-white/[0.02] bg-grid-black/[0.02]"></div>
