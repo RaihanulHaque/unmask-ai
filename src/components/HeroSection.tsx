@@ -1,4 +1,3 @@
-
 import { Button } from "@/components/ui/button"
 import { ArrowDown } from "lucide-react"
 
@@ -28,15 +27,11 @@ export function HeroSection() {
               size="lg" 
               className="gradient-primary text-white border-0 hover:opacity-90 transition-all duration-200 px-8 py-6 text-lg rounded-xl"
             >
-              Download for iOS
-            </Button>
-            <Button 
-              size="lg" 
-              variant="outline" 
-              className="border-border/40 glass-effect hover:bg-accent/50 px-8 py-6 text-lg rounded-xl"
-            >
               Download for Android
             </Button>
+            <p className="text-sm text-muted-foreground">
+              iOS version coming soon
+            </p>
           </div>
           
           {/* App Preview Mockup */}
